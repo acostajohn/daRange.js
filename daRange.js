@@ -1,4 +1,11 @@
-function CustomRange(){
+/**
+ * daRange.js: Handle native text ranges
+ * 
+ * Copyright (c) 2011, John Acosta - @John_Acosta <wwww.jseros.com>
+ * All rights reserved.
+ * License: http://www.opensource.org/licenses/BSD-2-Clause
+ */
+function daRange(){
 	var range = null;
 	var self = this;
 	var mode = mode = {
