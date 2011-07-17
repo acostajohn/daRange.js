@@ -8,7 +8,7 @@
 function daRange(){
 	var range = null;
 	var self = this;
-	var mode = mode = {
+	var mode = {
 		ie: ('createTextRange' in document.body),
 		w3c: ('createRange' in document)
 	};
